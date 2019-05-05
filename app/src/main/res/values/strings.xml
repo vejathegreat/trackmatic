@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Trackmatic</string>
+    <string name="_0">0</string>
+    <string name="r0_00">0.00</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="clear_cart">Clear</string>
+    <string name="calculate">Calculate</string>
+    <string name="quantity">Quantity</string>
+    <string name="item_name">Item Name</string>
+    <string name="price">Price</string>
+    <string name="enter_quantity">Enter Quantity:</string>
+    <string name="enter_price">Enter Price:</string>
+    <string name="select_item">Select Item:</string>
+
+    <string-array name="problem_statements">
+        <item>Trains &amp; Towns </item>
+        <item>PROBLEM TWO: SALES TAXES </item>
+        <item>PROBLEM THREE: MARS ROVERS</item>
+    </string-array>
+
+    <string-array name="problem_statements_backgrounds">
+        <item>trains</item>
+        <item>tax</item>
+        <item>marsarover</item>
+    </string-array>
+
+    <string-array name="sale_items">
+        <item>Book</item>
+        <item>Music CD</item>
+        <item>Chocolate Bar</item>
+        <item>Bottle of perfume</item>
+        <item>Packet of headache pills</item>
+        <item>Imported box of chocolates</item>
+        <item>Imported bottle of perfume</item>
+    </string-array>
+
+    <string-array name="sale_items_tax_free">
+        <item>Book</item>
+        <item>Chocolate Bar</item>
+        <item>Packet of headache pills</item>
+        <item>Imported box of chocolates</item>
+    </string-array>
+
+    <string-array name="imported_items">
+        <item>Imported box of chocolates</item>
+        <item>Imported bottle of perfume</item>
+    </string-array>
+
+</resources>

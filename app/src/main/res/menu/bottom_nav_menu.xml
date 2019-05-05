@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_trains"
+        android:enabled="true"
+        android:icon="@drawable/trains_icon"
+        android:title="Trains"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_tax"
+        android:enabled="true"
+        android:icon="@drawable/tax_icon"
+        android:title="Tax"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_rover"
+        android:enabled="true"
+        android:icon="@drawable/mars_rover"
+        android:title="Mars Rover"
+        app:showAsAction="ifRoom" />
+</menu>
