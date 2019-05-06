@@ -2,13 +2,16 @@ package com.velaphi.trackmatic;
 
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.velaphi.trackmatic.marsRover.MarsRoverFragment;
 import com.velaphi.trackmatic.taxProblem.SalesTaxFragment;
+import com.velaphi.trackmatic.trainsProblem.TrainsFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,20 +26,24 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.action_tax:
-                        SalesTaxFragment fragment = new SalesTaxFragment();
-                        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                        transaction.replace(R.id.frameLayout, fragment);
-                        transaction.commit();
+                        openFragment(new SalesTaxFragment());
                         break;
                     case R.id.action_trains:
-                        Toast.makeText(MainActivity.this, "Trains", Toast.LENGTH_SHORT).show();
+                        openFragment(new TrainsFragment());
                         break;
                     case R.id.action_rover:
-                        Toast.makeText(MainActivity.this, "Mars Rover", Toast.LENGTH_SHORT).show();
+                        openFragment(new MarsRoverFragment());
                         break;
                 }
                 return true;
             }
         });
     }
+
+    private void openFragment(Fragment fragment){
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.frameLayout, fragment);
+        transaction.commit();
+    }
+
 }

@@ -11,6 +11,17 @@
     <string name="enter_quantity">Enter Quantity:</string>
     <string name="enter_price">Enter Price:</string>
     <string name="select_item">Select Item:</string>
+    <string name="coordinates">Coordinates:</string>
+    <string name="x_axis">X-axis</string>
+    <string name="y_axis">Y-axis</string>
+    <string name="line_1">Line 1</string>
+    <string name="line_two">Line two</string>
+    <string name="instructions">Instructions</string>
+    <string name="position">Rover Position:</string>
+    <string name="output">Output</string>
+    <string name="command">Command</string>
+    <string name="facing_direction">Facing Direction:</string>
+    <string name="cardinal_direction">Cardinal direction</string>
 
     <string-array name="problem_statements">
         <item>Trains &amp; Towns </item>
@@ -44,6 +55,26 @@
     <string-array name="imported_items">
         <item>Imported box of chocolates</item>
         <item>Imported bottle of perfume</item>
+    </string-array>
+
+    <string-array name="direction">
+        <item>N</item>
+        <item>W</item>
+        <item>E</item>
+        <item>S</item>
+    </string-array>
+
+    <string-array name="axis">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
     </string-array>
 
 </resources>

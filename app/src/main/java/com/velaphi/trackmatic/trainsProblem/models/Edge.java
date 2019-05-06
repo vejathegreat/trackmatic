@@ -1,4 +1,4 @@
-package com.velaphi.trackmatic.models;
+package com.velaphi.trackmatic.trainsProblem.models;
 
 public class Edge {
 
